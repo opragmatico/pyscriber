@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Packaging
+*.spec.bak
+*.dmg
+*.app/
+
+# Local models and recordings (root-level only; src/pyscriber/models is a package)
+/models/
+/recordings/
+*.wav
+!tests/fixtures/**/*.wav
+*.onnx
+*.safetensors
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
